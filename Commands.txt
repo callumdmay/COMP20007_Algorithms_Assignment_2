@@ -1,0 +1,13 @@
+
+
+//run bad hash on test1
+test1.txt -t s -p -h b -n 20
+
+//universal on test1
+test1.txt -t s -p -h u -n 20
+
+//Dumb collision
+test1.txt -t s  -c d -n 20
+
+//Smart collision
+test1.txt -t s  -c c -n 20
